@@ -1,5 +1,10 @@
 .venv/
-__pycache__/
-*.pyc
+**pycache**/
+*.py[cod]
 .env
+.env.*
+!.env.example
 .vscode/
+node_modules/
+dist/
+.DS_Store
